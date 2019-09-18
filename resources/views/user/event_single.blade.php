@@ -47,7 +47,7 @@
                                         <div class="content-pad single-course-detail">
                                             <div class="course-detail">
                                                 <div class="course-speaker">
-                                                    <h4 class="text_name">Event Name</h4>
+                                                    <h4 class="text_name">{{$event_detail->title}}</h4>
                                                     <br>
                                                     {{-- <div class="row">   
                                                         <div class="col-md-6 col-sm-6">
@@ -135,40 +135,7 @@
                                                         </button>
                                                     </div>
                                                     
-                                                    <div class="related-course">
-                                                        <h3>Related Events</h3>
-                                                        <div class="cr-content">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-sm-6 related-item">
-                                                                    <div class="thumb">
-                                                                        <a href="#">
-                                                                            <img src="images/about/index1/event/single/4.jpg" alt="image">
-                                                                            <div class="overlay"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="cr-title">
-                                                                        <a href="#" class="related-cr-title main-color-1-hover">How To Sell Anything</a>
-                                                                    </div>
-                                                                    <div class="cr-start small-text v1">JUNE 19, 2016 9:30 AM</div>
-                                                                    <div class="clear"></div>
-                                                                </div>
-
-                                                                <div class="col-md-6 col-sm-6 related-item">
-                                                                    <div class="thumb">
-                                                                        <a href="#">
-                                                                            <img src="images/about/index1/event/single/5.jpg" alt="image">
-                                                                            <div class="overlay"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="cr-title">
-                                                                        <a href="#" class="related-cr-title main-color-1-hover">Science In The New Era</a>
-                                                                    </div>
-                                                                    <div class="cr-start small-text v1">UNE 20, 2016 4:00 PM</div>
-                                                                    <div class="clear"></div>
-                                                                </div>
-                                                            </div>
-                                                       </div>
-                                                    </div>                                 
+                                                                                     
                                                 </div><!--/content-content-->
                                             </div><!--/course-detail-->
                                         </div><!--/single-content-detail-->         
